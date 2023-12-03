@@ -7,8 +7,7 @@ with open ('Working files/Day 1 Calibration.txt') as file:
             if c.isdigit(): numbers.append(c)
         count = len(numbers)
         first = numbers[0] #We know all of these have at least one number, but some don't have two.
-        if count > 1: second = numbers[count - 1]
-        else: second = numbers[0]
+        second = numbers[count - 1]
         linevalue = int(first + second)
         final.append(linevalue)
 print(sum(final))
