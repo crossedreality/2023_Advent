@@ -1,5 +1,4 @@
 import re
-import math
 
 #region Classes
 class Card:
