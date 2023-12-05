@@ -1,6 +1,5 @@
 #This one may be running for a few years.
 import re
-import math
 
 #region Classes
 class Card:
