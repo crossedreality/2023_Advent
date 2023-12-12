@@ -47,12 +47,6 @@ def IsInBounds(location):
         else: return False
     else: return False
 
-def IsEnclosed(location):
-    if location:
-        x, y = location
-        n = north()
-    else: return False
-
 def lookahead(tile):
     options = []
     if tile.glyph in NPIPES: options.append(north(tile.location))
